@@ -82,7 +82,7 @@
       "typeSeparator": "."
     }
   },
-  "defaultProject": "products",
+  "defaultProject": "cart",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {

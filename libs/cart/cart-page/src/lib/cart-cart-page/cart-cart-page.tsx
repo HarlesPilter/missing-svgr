@@ -2,6 +2,8 @@ import { useReducer } from 'react';
 
 import styled from '@emotion/styled';
 
+import { ReactComponent as NXLogo } from './logo.svg';
+
 import '@nx-example/shared/product/ui';
 
 import {
@@ -128,6 +130,7 @@ export const CartCartPage = () => {
       ))}
       <StyledTotalLi>
         <h2>Total</h2>
+        <NXLogo />
         <p>
           <nx-example-product-price
             value={getTotalCost(cartState, productsState)}
